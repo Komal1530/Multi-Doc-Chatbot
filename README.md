@@ -2,7 +2,6 @@
 
 Chat with your documents locally using Ollama. The app supports:
 - PDF files
-- Images (`.png`, `.jpg`, `.jpeg`, `.webp`)
 - Spreadsheets (`.xlsx`, `.xls`, `.csv`)
 
 Runs locally with no OpenAI API key required.
@@ -34,7 +33,7 @@ Pull these models before using the app:
 
 - Chat model (default): `llama3.2`
 - Embedding model (default): `nomic-embed-text`
-- Vision model for image extraction (default): `llava`
+
 
 Install them with:
 
@@ -80,7 +79,6 @@ Then open the URL shown in terminal (for example `http://localhost:8512`).
    - Vision model (for images)
 2. Upload any mix of files:
    - PDFs
-   - Images
    - Excel/CSV
 3. Click **Process**.
 4. Ask questions in the chat input.
@@ -99,3 +97,4 @@ Then open the URL shown in terminal (for example `http://localhost:8512`).
   - Check Ollama is running and mostreamlit run app.py
 dels exist:
     - `ollama list`
+
