@@ -1,4 +1,4 @@
-# Document Chat with Ollama (PDF + Image + Excel/CSV)
+# Document Chat with Ollama (PDF + Excel/CSV)
 
 Chat with your documents locally using Ollama. The app supports:
 - PDF files
@@ -97,4 +97,5 @@ Then open the URL shown in terminal (for example `http://localhost:8512`).
   - Check Ollama is running and mostreamlit run app.py
 dels exist:
     - `ollama list`
+
 
